@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "api-creditos"
+  devtools:
+    add-properties: false
+  jpa:
+    database: postgresql
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/femseaptobd
+    username: postgres
+    password: Idl270309@
